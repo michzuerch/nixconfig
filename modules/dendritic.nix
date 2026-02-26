@@ -14,4 +14,5 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
+  debug = true;
 }
