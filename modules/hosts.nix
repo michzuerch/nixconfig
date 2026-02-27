@@ -7,6 +7,10 @@
       description = "from sample";
       users.tux = { };
     };
+    ideapad5-julia = {
+      description = "Lenovo Ideapad 5 Julia";
+      users.tux = { };
+    };
   };
   # define an standalone home-manager for tux
   # den.homes.x86_64-linux.tux = { };
