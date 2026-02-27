@@ -1,0 +1,7 @@
+{ den, ... }:
+{
+  den.default = {
+    nixos.system.stateVersion = "26.05";
+    homeManager.home.stateVersion = "26.05";
+  };
+}
