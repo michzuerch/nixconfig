@@ -1,5 +1,4 @@
-{ den, ... }:
-{
+{den, ...}: {
   den.aspects.ideapad5-julia.includes = [
     # Hardware
     den.aspects.asus
@@ -20,8 +19,8 @@
     den.aspects.nh
     den.aspects."nix-settings"
     den.aspects.virtualization
-    den.aspects.restic
-    den.aspects.sops
+    #den.aspects.restic
+    #den.aspects.sops
     den.aspects.sound
     den.aspects.steam
     den.aspects.flatpak
